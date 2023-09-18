@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformação de Imagem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Translação, Rotação e Limpar Imagem</h1>
+    <p>Insira a imagem</p>
+    
+    <label for="inputImage">Escolher Imagem</label>
+    <input type="file" id="inputImage" accept="image/*">
+    <br><br>
+    <button onclick="applyTranslation()">Translação</button>
+    <button onclick="applyRotation()">Rotação</button>
+    <button onclick="clearImage()">Limpar Imagem</button>
+    <br>
+    <canvas id="canvas" width="400" height="400"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
